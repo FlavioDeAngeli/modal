@@ -1,0 +1,36 @@
+.Modal {
+  position: absolute;
+  left: 32%;
+  top: 20%;
+  width: 30vw;
+  padding: 3rem 2rem 3rem 2rem;
+  background-color: aliceblue;
+  border: 1px solid #505050;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.closeBtn {
+  position: absolute;
+  right: 1.5rem;
+  top: 1rem;
+  font-weight: bold;
+}
+
+.closeBtn:hover {
+  cursor: pointer;
+}
+
+.header {
+  border-bottom: 1px solid #505050;
+  margin-bottom: 2rem;
+}
+
+.footer {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #505050;
+}
